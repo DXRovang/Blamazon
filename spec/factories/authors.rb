@@ -1,8 +1,9 @@
 FactoryBot.define do
   factory :author do
-    first_name { "first_name" }
-    last_name { "last_name" }
+    first_name { "John" }
+    last_name { "Doe" }
     birth_date { "1970-01-01"}
-    # association :author, factory: :author
+    gender { 'M' }
+    nationality { 'Scotland' }
   end
 end

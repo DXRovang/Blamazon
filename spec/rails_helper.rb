@@ -5,4 +5,5 @@ require File.expand_path('../config/environment', __dir__)
 ActiveRecord::Migration.check_pending!
 RSpec.configure do |config|
   config.include FactoryBot::Syntax::Methods
+
 end
