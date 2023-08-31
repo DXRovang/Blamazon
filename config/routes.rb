@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+  get 'pages/restricted'
   resources :order_items
   resources :orders
   resources :authors
